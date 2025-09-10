@@ -5,45 +5,45 @@ const Services = () => {
   const visaTypes = [
     {
       icon: <Briefcase className="text-blue-600" size={32} />,
-      title: "H-1B Specialty Occupation",
-      description: "For professionals in specialty occupations requiring theoretical or technical expertise",
-      features: ["Initial petitions", "Extensions", "Transfers", "Amendments"],
-      processing: "Regular: 3-5 months | Premium: 15 days"
+      title: "UAE Work Visa",
+      description: "Employment visa for professionals seeking jobs in Dubai, Abu Dhabi, and other Emirates.",
+      features: ["Work permits", "Residence visa", "Medical test guidance", "Visa stamping"],
+      processing: "2-4 weeks depending on employer and nationality"
     },
     {
       icon: <Users className="text-blue-600" size={32} />,
-      title: "L-1 Intracompany Transfer",
-      description: "For executives, managers, and employees with specialized knowledge",
-      features: ["L-1A Executive/Manager", "L-1B Specialized Knowledge", "Blanket L petitions"],
-      processing: "Regular: 2-4 months | Premium: 15 days"
+      title: "Saudi Arabia Employment Visa",
+      description: "Visa for skilled and unskilled workers to work legally in Saudi Arabia.",
+      features: ["Iqama processing", "Sponsorship transfer", "Visa stamping", "Family visa support"],
+      processing: "3-6 weeks based on employer and embassy"
     },
     {
       icon: <Star className="text-blue-600" size={32} />,
-      title: "O-1 Extraordinary Ability",
-      description: "For individuals with extraordinary ability in sciences, arts, education, business, or athletics",
-      features: ["O-1A Sciences/Business", "O-1B Arts/Entertainment", "O-2 Support Personnel"],
-      processing: "Regular: 2-3 months | Premium: 15 days"
+      title: "Qatar Work Visa",
+      description: "Employment visa for professionals and workers in Qatar across industries.",
+      features: ["Job offer verification", "Medical & fingerprint process", "Residence permit", "Family sponsorship"],
+      processing: "2-4 weeks after employer approval"
     },
     {
       icon: <Globe className="text-blue-600" size={32} />,
-      title: "TN NAFTA Professional",
-      description: "For Canadian and Mexican professionals under NAFTA agreement",
-      features: ["Initial applications", "Extensions", "Change of employer", "Port of entry filing"],
-      processing: "At border: Same day | USCIS: 2-3 months"
+      title: "Oman Employment Visa",
+      description: "Visa for foreign employees sponsored by Omani companies.",
+      features: ["Labour clearance", "Employment visa", "Medical examination guidance", "Renewals & extensions"],
+      processing: "2-3 weeks depending on documentation"
     },
     {
       icon: <FileText className="text-blue-600" size={32} />,
-      title: "E-2 Treaty Investor",
-      description: "For investors from treaty countries making substantial investments",
-      features: ["Initial petitions", "Extensions", "Family derivatives", "Business plans"],
-      processing: "Consular: 2-4 months | USCIS: 3-5 months"
+      title: "Russia Work Visa",
+      description: "Visa for professionals and workers hired by Russian companies or contractors.",
+      features: ["Single-entry work visa", "Multi-entry extension", "Work permit assistance", "Family visa support"],
+      processing: "1-3 months depending on job category"
     },
     {
       icon: <Clock className="text-blue-600" size={32} />,
-      title: "PERM Labor Certification",
-      description: "First step in employment-based green card process",
-      features: ["Recruitment process", "PWD applications", "PERM filing", "I-140 petitions"],
-      processing: "PERM: 12-18 months | I-140: 6-12 months"
+      title: "Bahrain & Kuwait Work Visa",
+      description: "Employment visas for Bahrain and Kuwait across various industries.",
+      features: ["Employment contract processing", "Work permit", "Medical test assistance", "Visa stamping"],
+      processing: "2-6 weeks depending on employer and embassy"
     }
   ];
 
@@ -55,11 +55,11 @@ const Services = () => {
             Our Services
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-            Comprehensive Visa Solutions
+            Work Visa Solutions for Arab Countries & Russia
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We handle all types of employment-based visas with expertise, 
-            ensuring your company can hire the best talent from around the world.
+            We provide complete visa services for Gulf countries and Russia — guiding you 
+            through every step from job offer verification to visa stamping and residence permits.
           </p>
         </div>
 
@@ -99,7 +99,7 @@ const Services = () => {
 
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-6">
-            Don't see the visa type you need? We handle many other immigration matters.
+            Need help with another country’s work visa? Contact us for personalized assistance.
           </p>
           <button 
             onClick={() => {

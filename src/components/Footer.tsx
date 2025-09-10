@@ -111,18 +111,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Professional Memberships */}
-        <div className="border-t border-gray-800 pt-8 mt-12">
-          <div className="text-center mb-8">
-            <h3 className="text-lg font-semibold mb-4">Professional Memberships & Certifications</h3>
-            <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-400">
-              <span>American Immigration Lawyers Association (AILA)</span>
-              <span>State Bar Association</span>
-              <span>Certified Business Immigration Law</span>
-              <span>USCIS Authorized Representative</span>
-            </div>
-          </div>
-        </div>
+        
         
 
         {/* Social & Legal */}

@@ -5,44 +5,44 @@ const Process = () => {
   const steps = [
     {
       icon: <Users className="text-white" size={24} />,
-      title: "Initial Consultation",
-      description: "Free 30-minute consultation to understand your needs and assess your case",
+      title: "Free Consultation",
+      description: "We understand your career goals and suggest the best country and visa option for you.",
       duration: "30 minutes",
       color: "bg-blue-600"
     },
     {
       icon: <FileSearch className="text-white" size={24} />,
-      title: "Case Evaluation",
-      description: "Comprehensive review of your situation and determination of the best visa strategy",
+      title: "Document Verification",
+      description: "We carefully review your passport, education, medical, and employment documents.",
       duration: "1-2 days",
       color: "bg-indigo-600"
     },
     {
       icon: <CheckSquare className="text-white" size={24} />,
-      title: "Document Preparation",
-      description: "Gathering and preparing all required documents, forms, and supporting evidence",
-      duration: "1-2 weeks",
+      title: "Job Offer & Work Permit",
+      description: "We coordinate with employers to arrange job offers and process the official work permit.",
+      duration: "1-3 weeks",
       color: "bg-purple-600"
     },
     {
       icon: <Send className="text-white" size={24} />,
-      title: "Application Filing",
-      description: "Professional filing of your petition with USCIS or relevant government agency",
-      duration: "1 day",
+      title: "Visa Application Submission",
+      description: "We submit your application to the embassy/consulate and guide you through medical tests.",
+      duration: "1-2 weeks",
       color: "bg-pink-600"
     },
     {
       icon: <Clock className="text-white" size={24} />,
-      title: "Case Monitoring",
-      description: "Regular updates on case status and handling any requests for additional evidence",
-      duration: "Ongoing",
+      title: "Embassy Approval & Stamping",
+      description: "We track your visa status, attend embassy requirements, and ensure stamping on time.",
+      duration: "2-4 weeks",
       color: "bg-red-600"
     },
     {
       icon: <CheckCircle className="text-white" size={24} />,
-      title: "Approval & Next Steps",
-      description: "Celebration of approval and guidance on next steps including visa stamping",
-      duration: "Varies",
+      title: "Travel & Settlement",
+      description: "We assist with travel arrangements, arrival guidance, and residence permit formalities.",
+      duration: "Varies by country",
       color: "bg-green-600"
     }
   ];
@@ -55,11 +55,11 @@ const Process = () => {
             Our Process
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-            Simple, Streamlined Approach
+            Step-by-Step Work Visa Assistance
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We've perfected our process over 10 years to ensure maximum efficiency 
-            and success rates while keeping you informed every step of the way.
+            From consultation to visa stamping, we manage the entire process 
+            so you can start your career abroad with confidence.
           </p>
         </div>
 
@@ -114,11 +114,11 @@ const Process = () => {
         <div className="mt-16 text-center">
           <div className="bg-blue-50 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Ready to Start Your Visa Journey?
+              Ready to Begin Your Journey?
             </h3>
             <p className="text-gray-600 mb-6">
-              Schedule a free consultation today and let's discuss how we can help 
-              secure the visa you need for your business goals.
+              Book your free consultation and let us guide you step by step 
+              to secure your work visa for Arab countries or Russia.
             </p>
             <button 
               onClick={() => {

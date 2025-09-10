@@ -1,4 +1,3 @@
-import React from "react";
 import { User } from "lucide-react";
 
 const StickyCard = () => {
@@ -12,7 +11,7 @@ const StickyCard = () => {
       >
         <User size={20} className="mr-2" />
         <span className="font-medium text-center">
-          Develop By ~ Sabir Ali
+          Develop By ~ Sabir Ali (click to contact)
         </span>
       </a>
     </div>

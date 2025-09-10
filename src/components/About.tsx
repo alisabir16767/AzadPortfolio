@@ -1,13 +1,10 @@
-import React from 'react';
 import { CheckCircle, BookOpen, Users, Award } from 'lucide-react';
 
 const About = () => {
   const achievements = [
     "Licensed Immigration Attorney with 10+ years experience",
-    "Former USCIS Policy Analyst",
-    "Member of American Immigration Lawyers Association (AILA)",
     "Certified in Business Immigration Law",
-    "Fluent in English, Spanish, and Mandarin"
+    "Fluent in English, Urdu,Hindi,Bhojpuri"
   ];
 
   const expertise = [

@@ -56,7 +56,7 @@ const Contact = () => {
     {
       icon: <MapPin className="text-blue-600" size={24} />,
       title: "Office",
-      details: ["123 Business District", "New York, NY 10001"]
+      details: ["Khairatiya , Gopalganj ,Bihar , india 841438"]
     },
     {
       icon: <Clock className="text-blue-600" size={24} />,
